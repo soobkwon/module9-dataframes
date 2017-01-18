@@ -1,16 +1,13 @@
 # Exercise 6: Husky Football 2015 Season
 # Read in the Husky Football 2015 game data into a variable called `husky.games.2015`
-
-
+husky.games.2015 <- read.csv("data/huskys_2015.csv, stringsAsFactors=FALSE")
 
 # Create a vector of the teams that the Huskies played against during that season
-
-
+teams <- c("Boise State", "Sacramento", "Utah State", "California", "Southern Cal", "Oregon", "Stanford", "Arizona", "Utah", "Arizona State", "Oregon State", "Washington State", "Southern Mississippi")
 
 # Create a vector of the their final scores for the games
 # Call this variable `husky.scores`
-
-
+husky.scores <- c(13, 49, 31, 24, 17, 20, 14, 49, 23, 23, 52, 45, 44)
 
 # Create 2 variables called `rushing.yards` and `passing.yards` to represent the yards the Huskies rushed and passed
 
