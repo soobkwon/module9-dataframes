@@ -26,7 +26,7 @@ salaries$got.raise <- salaries$raise > 0
 ### cell rather than the whole row!)
 
 # What was the 2015 salary of employee 57
-48150.12
+salary.employee.57 <- salaries$salaries.2015[salaries$employees == "Employee 57"]
 
 # How many employees got a raise?
 sum(salaries$raise == TRUE)
@@ -42,8 +42,9 @@ sum(salaries$raise == TRUE)
 
 # What was the name of the employee who recieved largest decrease in salary?
 
-# What was the average salary increase?
 
+# What was the average salary increase?
+avg.increase <- mean(salaries$raise)
 
 ### Bonus ###
 
