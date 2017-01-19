@@ -35,13 +35,13 @@ length(salaries$employees[salaries$raise == TRUE])
 high.raise <- max(salaries$raise)
 
 # What was the "name" of the employee who received the highest raise?
-
+employee.raise <- salaries$employee[high.raise == salaries$raise]
 
 # What was the largest decrease in salaries between the two years?
-
+largest.decrease.salaries <- min(salaries$raise)
 
 # What was the name of the employee who recieved largest decrease in salary?
-
+employee.paycut <- salaries$employee[largest.decrease.salaries == salaries$raise]
 
 # What was the average salary increase?
 avg.increase <- mean(salaries$raise)
